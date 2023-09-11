@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+            <head>
+            <title>Calculadora de hidratación</title>
+            <link rel="stylesheet" href="./style.css" />
+            <script src="script.js" defer></script>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+            </head>
+        <body>
+                <div id="Contenedor">
+                    <div id="Calculadora">
+                        <div class="Contenido">
+                            <h1>Hidratación Basal</h1>
+                            <input type="number" id="peso" placeholder="Peso en Kg"/>
+                            <p class="item" id="error" >Te olvidaste de algo importante para que esto funcione </p>
+                            <button class="item" id="calcular">Calcular</button>
+                            <p class="item resultado" id="flu">71cc/h</p>
+                            <p class="item resultado" id="man">m+m/2 : 105cc/h</p>
+                        </div>        
+                    </div>
+                     <div id="detalle">
+                        <div class="Contenido">   
+                            <h1> Cómo se calcula?</h1>
+                        <ul>
+                            <li>De 0 a 10 se calcula 100cc por cada Kilo</li>
+                            <li>Se suman 50cc por cada kilo de peso arriba de los 10Kg, hasta 20kg</li>
+                            <li>De 20kg en adelante, se suman 20cc por cada kilo adicional</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                <a element id="enlace" href="https://www.facebook.com/profile.php?id=100069358593272">FB 2da Region Sanitaria</a>
+                </div>
+            </body> 
+    
+</html>
