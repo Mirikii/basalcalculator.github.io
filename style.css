@@ -1,11 +1,11 @@
 h1 {
-    color: black;
-}
+    color: rgb(221, 221, 235);
+    }
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
-    background: #f6f5f7; 
     font-family: 'Montserrat', sans-serif;
+    background: #dbd8de; 
     color: #3E363F;
 } 
 #Contenedor{
@@ -17,18 +17,18 @@ body{
     margin: auto;
 }
 #Calculadora{
-     background: #4897d0;
+     background: #0661a3;
      width: 50%;
      height: 100%;
      float: left;
 }
 
 #detalle {
-    background: #008001;
+    background: #078007;
     width: 50%;
     height: 100%;
     float: left;
-    color: #f6f5f8;
+    color: #f6f5f7;
 }
 .Contenido{
     position: relative;
@@ -60,17 +60,14 @@ button:active {
         transform: scale(0.95);
 }
 #error{
-    color: red;
+    color: rgb(255, 234, 0);
     font-weight: bold;
     display: none;
 }
 .resultado{
-    color:  #0A81D1;
+    color:  #dbe2e7;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 5px;
     display: none;
-}
-#enlace{
-    
 }
